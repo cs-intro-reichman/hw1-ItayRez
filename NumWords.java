@@ -7,7 +7,7 @@ public class NumWords {
 		int number = Integer.parseInt(args[0]);
 
 		//Print the number's value in terms of hundreds, tens, ones.
-		System.out.println((number / 100) + " hundreds, " + ((number % 100) / 10) + " tens, " + (number % 10) + " ones.");
+		System.out.println((number / 100) + " hundreds, " + ((number % 100) / 10) + " tens, and " + (number % 10) + " ones.");
 
 	}
 }
