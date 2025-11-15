@@ -11,3 +11,8 @@ public class NumWords {
 
 	}
 }
+
+// I would seperate the math compututions to variables
+// For example: 
+// int hundreds = number / 100;
+// int tens = (number % 100) / 10;
